@@ -342,7 +342,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Protobuf
 PRODUCT_PACKAGES += \
