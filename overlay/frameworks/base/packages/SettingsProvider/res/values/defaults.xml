@@ -26,4 +26,7 @@
 
     <!-- Disable UI touch sounds by default -->
     <bool name="def_sound_effects_enabled">false</bool>
+
+    <dimen name="rounded_corner_radius">4dp</dimen>
+    <dimen name="rounded_corner_content_padding">46px</dimen>
 </resources>
