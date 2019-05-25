@@ -539,12 +539,6 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     group root
     disabled
 
-service vendor.msm_irqbl_sdm630 /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance_sdm630.conf
-    class core
-    user root
-    group root
-    disabled
-    
 on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
@@ -570,7 +564,7 @@ service bugreport /system/bin/dumpstate -d -p -B -z -o /data/user_de/0/com.andro
     disabled
     oneshot
     keycodes 114 115 116
-    
+
 #Set GPU Opengles version
 on property:vendor.opengles.version=*
     setprop ro.opengles.version ${vendor.opengles.version}
@@ -593,11 +587,11 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
 on property:dev.bootcomplete=1
     swapon_all /vendor/etc/fstab.qcom
 
-#workaround for camera HAL can not read sys property 
+#workaround for camera HAL can not read sys property
 on property:sys.camera.face.unlock=*
     setprop vendor.camera.face.unlock ${sys.camera.face.unlock}
-    
-#add cts verify flag	
+
+#add cts verify flag
     on property:sys.gyro.sensorname=*
     setprop vendor.camera.gyro.sensorname ${sys.gyro.sensorname}
 
