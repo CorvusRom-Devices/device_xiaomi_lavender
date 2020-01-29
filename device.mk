@@ -406,6 +406,7 @@ PRODUCT_PACKAGES += \
     init.performance_level.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
+    init.safailnet.rc \
     init.qcom.usb.sh \
     init.target.rc \
     ueventd.qcom.rc \
