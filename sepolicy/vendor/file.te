@@ -17,3 +17,6 @@ type sysfs_fingerprint, sysfs_type, fs_type;
 
 type sysfs_light, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
