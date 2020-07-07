@@ -343,7 +343,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lavender
+    android.hardware.lights-service.lavender
 
 # Media
 PRODUCT_COPY_FILES += \

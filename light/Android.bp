@@ -18,14 +18,33 @@ cc_binary {
     defaults: ["hidl_defaults"],
     name: "android.hardware.light@2.0-service.lavender",
     proprietary: true,
-    init_rc: ["android.hardware.light@2.0-service.lavender.rc"],
-    vintf_fragments: ["android.hardware.light@2.0-service.lavender.xml"],
-    srcs: ["service.cpp", "Light.cpp"],
+    init_rc: ["hidl/android.hardware.light@2.0-service.lavender.rc"],
+    vintf_fragments: ["hidl/android.hardware.light@2.0-service.lavender.xml"],
+    srcs: ["hidl/service.cpp", "hidl/Light.cpp"],
     shared_libs: [
         "libhardware",
         "libhidlbase",
         "liblog",
         "libutils",
         "android.hardware.light@2.0",
+    ],
+}
+
+cc_binary {
+    name: "android.hardware.lights-service.lavender",
+    relative_install_path: "hw",
+    init_rc: ["aidl/android.hardware.lights.lavender.rc"],
+    vintf_fragments: ["aidl/android.hardware.lights.lavender.xml"],
+    vendor: true,
+    shared_libs: [
+        "libbase",
+        "liblog",
+        "libhardware",
+        "libbinder_ndk",
+        "android.hardware.light-V1-ndk_platform",
+    ],
+    srcs: [
+        "aidl/Lights.cpp",
+        "aidl/main.cpp",
     ],
 }

@@ -26,7 +26,7 @@
 /dev/spidev7.1                                  u:object_r:spidev_device:s0
 
 # Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.lavender                     u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.lavender                  u:object_r:hal_light_default_exec:s0
 
 # Power
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lavender-libperfmgr               u:object_r:hal_power_default_exec:s0
