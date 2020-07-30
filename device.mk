@@ -375,6 +375,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.class_main.sh \
