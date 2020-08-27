@@ -153,6 +153,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.sdm660_shim
 
+# DeviceSettings
+PRODUCT_PACKAGES += \
+   DeviceSettings
+
+# DeviceDoze
+PRODUCT_PACKAGES += \
+    DeviceDoze
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service

@@ -492,7 +492,6 @@ vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 
-
 # Camera-chromatix - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
 vendor/lib/libchromatix_csidtg_common.so|694c5e458f1ba7616a82facd865d110bdf148292
 vendor/lib/libchromatix_csidtg_cpp_preview.so|bda13f0b01d07b69b07c544ba021131d84109f61
@@ -1306,9 +1305,10 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn.so|8f3f
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a.so|8b8c0ec593387be2f433701b795fed87167d394f
 
 # Dirac - from Xiaomi
-vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
+vendor/etc/diracvdd.bin|b54270d4f44acc2bb2be8e1cdb3e54fb2c6be07b
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
 # Display-calibration
 vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml

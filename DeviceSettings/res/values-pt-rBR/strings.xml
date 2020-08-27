@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2020 The Xiaomi-SDM660 Project
+     https://github.com/xiaomi-sdm660
+     
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="advanced_settings">Device Settings</string>
+    <string name="advanced_settings_summary">Configurações específicas do aparelho</string>
+
+    <string name="display_title">Tela</string>
+
+    <!-- Mi Note 3 Settings -->
+    <string name="jason_pref_title">Configurações do Aparelho</string>
+    <string name="jason_pref_summary">Configurações extras do Mi Note 3</string>
+
+    <!-- KCal -->
+    <string name="device_kcal_title">Calibração de cores da tela</string>
+
+    <!-- Notification LED brightness -->
+    <string name="notification_title">LED de notificação</string>
+    <string name="notification_led_title">Brilho do LED de notificação</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display">Tela Ambiente</string>
+    <string name="advanced_doze_summary">Configurações específicas de gestos da tela Ambiente</string>
+
+    <string name="vibration_title">Retorno de vibração</string>
+    <string name="vibration_strength_title">Intensidade</string>
+
+    <string name="audio_title">Áudio</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">Aprimoramento de Som Mi</string>
+    <string name="dirac_summary">Otimizar qualidade de áudio</string>
+    <string name="dirac_headset_title">Escolher tipo de fone de ouvido</string>
+    <string name="dirac_preset_title">Escolha uma predefinição</string>
+
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_default">Padrão</string>
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston 1</string>
+    <string name="dirac_headset_general">Genérico</string>
+    <string name="dirac_headset_general_inear">In-Ear genérico</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
+    <string name="dirac_headset_piston_2">Mi Piston 2</string>
+    <string name="dirac_headset_piston_standard">Standard Edition</string>
+    <string name="dirac_headset_headphone">Mi Headphones</string>
+    <string name="dirac_headset_piston_youth">Youth Edition</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
+    <string name="dirac_headset_capsule">Mi Capsule</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="dirac_headset_comfort">Mi Comfort</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling Type-C</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
+    <string name="dirac_headset_earphone">Mi Earphones</string>
+
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_default">Padrão</string>
+    <string name="dirac_preset_rock">Rock</string>
+    <string name="dirac_preset_jazz">Jazz</string>
+    <string name="dirac_preset_pop">Pop</string>
+    <string name="dirac_preset_classical">Clássica</string>
+    <string name="dirac_preset_hiphop">Hip Hop</string>
+    <string name="dirac_preset_blues">Blues</string>
+    <string name="dirac_preset_electronic">Eletrônica</string>
+    <string name="dirac_preset_country">Country</string>
+    <string name="dirac_preset_dance">Dance</string>
+    <string name="dirac_preset_metal">Metal</string>
+
+    <!-- kcal -->
+    <string name="advanced_settings_kcal">Calibração de cores da tela</string>
+    <string name="cat_colormanagement">Configurações de cor</string>
+    <string name="cat_calibration">Calibração da tela</string>
+
+    <string name="kcal_enabled">Ativado</string>
+    <string name="kcal_disabled">Desativado</string>
+    <string name="set_on_boot">Ativar ao inicializar</string>
+    <string name="color_red">Vermelho</string>
+    <string name="color_green">Verde</string>
+    <string name="color_blue">Azul</string>
+    <string name="color_minimum">Mínimo</string>
+    <string name="saturation">Saturação</string>
+    <string name="value">Valor</string>
+    <string name="contrast">Contraste</string>
+    <string name="hue">Matiz</string>
+    <string name="grayscale">Tela em escala de cinza</string>
+
+    <string name="presets_dialog_title">Selecionar perfil</string>
+    <!-- Presets -->
+    <string name="preset_default">Padrão</string>
+    <string name="preset_version_1">Versão 1</string>
+    <string name="preset_version_2">Versão 2</string>
+    <string name="preset_version_3">Versão 3</string>
+    <string name="preset_triluminous">Triluminoso</string>
+    <string name="preset_deep_black_white">Branco e preto profundo</string>
+    <string name="preset_deep_natural">Natural profundo</string>
+    <string name="preset_cool_amoled">Amoled padrão</string>
+    <string name="preset_extreme_amoled">Amoled extremo</string>
+    <string name="preset_warm_amoled">Amoled Quente</string>
+    <string name="preset_hybrid_mamba">Mamba Híbrida</string>
+
+    <!-- menu -->
+    <string name="kcal_presets">@string/presets_dialog_title</string>
+    <string name="kcal_reset">Redefinir</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">Escolher novo valor</string>
+    <string name="default_value">Valor padrão</string>
+    <string name="edit_hint" formatted="false">Valor entre %1$d e %2$d</string>
+
+    <!-- FPS Info -->
+    <string name="fps_info_title">Mostrar FPS</string>
+    <string name="fps_info_summary">Mostra os quadros por segundo sobrepostos na tela</string>
+    
+    <!-- Audio amplification -->
+    <string name="audio_amplify">Amplificar audio</string>
+    <string name="headphone_gain">Ganho do headphone</string>
+    <string name="mic_gain">Ganho do microfone</string>
+
+</resources>
