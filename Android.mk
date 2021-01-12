@@ -112,9 +112,6 @@ $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(IMS_SYMLINKS)
 
-<<<<<<< HEAD
-endif
-=======
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 CNE_LIBS := libvndfwk_detect_jni.qti.so
@@ -128,4 +125,3 @@ $(CNE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 ALL_DEFAULT_INSTALLED_MODULES += $(CNE_SYMLINKS)
 
 endif
->>>>>>> 5fae4fb0... lavender: Create CneApp symlinks
