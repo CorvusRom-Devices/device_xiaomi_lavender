@@ -20,4 +20,4 @@
 /dev/block/bootdevice/by-name/dsp        /vendor/dsp            ext4   ro,nosuid,nodev,barrier=1                        wait
 /dev/block/bootdevice/by-name/cache      /cache                 ext4   nosuid,nodev,noatime,barrier=1                           wait
 /dev/block/bootdevice/by-name/persist    /mnt/vendor/persist    ext4   noatime,nosuid,nodev,barrier=1                   wait,check
-/dev/block/zram0                             none                       swap    defaults                                            zramsize=1610612736,max_comp_streams=4
+/dev/block/zram0                             none                       swap    defaults                                            zramsize=1610612736,max_comp_streams=8
