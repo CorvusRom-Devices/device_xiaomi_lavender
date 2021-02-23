@@ -58,6 +58,9 @@
 # Root files
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# Sockets
+/dev/socket/audio_hw_socket                                                                                                 u:object_r:audio_socket:s0
+
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
 
