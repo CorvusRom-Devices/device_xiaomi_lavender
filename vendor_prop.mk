@@ -277,3 +277,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1 \
     persist.sys.sf.disable_blurs=1
+
+# Privapp-permissions whitelist
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.control_privapp_permissions=log
