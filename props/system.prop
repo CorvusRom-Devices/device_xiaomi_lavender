@@ -15,8 +15,15 @@ telephony.lteOnCdmaDevice=1
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# IORap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
