@@ -11,3 +11,6 @@ debug.cpurend.vsync=false
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
