@@ -1528,21 +1528,23 @@ vendor/lib64/librs_adreno_sha1.so|41c01066c080565efe6b4469be2e99d511d00533
 vendor/lib/libhdr_tm.so|8d253c28c1fd976ac009088e36d483c16566f9a5
 vendor/lib64/libhdr_tm.so|1e74de5b505c8f742f1fb0379725ec9f5fd53282
 
-# Graphics (SDM) - from lavender-user V12.0.3.0.QFGEUXM
-vendor/lib/libsdm-diag.so|b1813c5639553537ccda31b2e44b5d4a85eb2adc
-vendor/lib/libqseed3.so|f1c5c5e2db7cf1bf1cd6782af3476ec721c525e7
--vendor/lib/libsdm-disp-vndapis.so|15a98ef885dbd29935b1107d7a2988ae495abb87
-vendor/lib/libtinyxml2_1.so|f54f81359c78715315bc24678c34c129413e6c92
-vendor/lib64/libqseed3.so|24ae4dfe5d9fa27a858b64dfafd1c713da6e6fde
-vendor/lib64/libsdm-diag.so|6eb99b83036f917070393fa067eaebc50a5ff307
--vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
-vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
+# Graphics (SDM) - from LA.UM.8.2.r1-05700-sdm660.0
+vendor/lib/libsdm-color.so|325c5b6cff3cf3d7d5d8e479a1c37f7255cbf748
+vendor/lib/libsdm-diag.so|fa211dd848a93242e84d1b7fdc5fcf6cb9c25c2f
+vendor/lib/libsdmextension.so|342a6ecc85a93309c86c01466a612cfbe49c69f5
+vendor/lib/libqseed3.so|44f99b99b831227491e320a3098c8defe8df0781
+-vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
+vendor/lib/libtinyxml2_1.so|89e1b1af10209dbb8d341cd314750cc64fc33852
+vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
+vendor/lib64/libsdm-color.so|b5e5ec9f5cdad2094891197fd00f8ccdc8340c06
+vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
+-vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
+vendor/lib64/libsdmextension.so|f1a7c8f98cfe34375f4e204e0a9283224c86aafe
+vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
-# Graphics (SDM) - from lavender-user V12.0.3.0.QFGEUXM
-vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
-vendor/lib/libsdmextension.so|37d5fca198c8e8526d6a4cb95f9c4bdf719e0efd
-vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
-vendor/lib64/libsdmextension.so|264c00a0920d291700b2948b9337037684986921
+# Graphics (Vulkan) - from LA.UM.8.2.r1-07400-sdm660.0
+vendor/lib/hw/vulkan.sdm660.so|976dc51608ebdbed8ced26809e3b776c47695c39
+vendor/lib64/hw/vulkan.sdm660.so|0b282ec0dc482134fd0ba168cd367a8a008ceb5f
 
 # Graphics (Vulkan) - from lavender-user V12.0.3.0.QFGEUXM
 vendor/lib/hw/vulkan.sdm660.so|b2b6dfebba117a90653cc7563ee0df9b5f9f004e
