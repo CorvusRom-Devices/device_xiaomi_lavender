@@ -200,6 +200,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@3.0-impl \
     android.hardware.graphics.allocator@4.0-impl \
     android.hardware.memtrack@1.0-impl \
+    vendor.display.config@1.0.vendor \
     android.hardware.memtrack@1.0-service
 
 # DRM
