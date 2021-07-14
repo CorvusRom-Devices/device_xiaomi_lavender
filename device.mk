@@ -15,10 +15,12 @@ PRODUCT_CHARACTERISTICS := nosdcard
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Xiaomi Parts
+$(call inherit-product-if-exists, vendor/XiaomiParts/xiaomiparts.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-ppui
 
 # RRO configuration
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -150,7 +152,6 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
