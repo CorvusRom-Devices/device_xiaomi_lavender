@@ -475,8 +475,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    hostapd_cli \
     libwifi-hal-qcom \
     TetheringConfigOverlay \
+    WifiOverlay \
+    wificond \
     libwpa_client \
     WifiOverlay \
     wpa_supplicant \
