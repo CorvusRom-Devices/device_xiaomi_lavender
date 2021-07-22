@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "nexus_kernel_lavender",
+    "target_path": "kernel/xiaomi/lavender"
+  },
+  {
+    "repository": "lavender_xiaomi_vendor",
+    "target_path": "vendor/xiaomi/lavender"
+  }
+]
