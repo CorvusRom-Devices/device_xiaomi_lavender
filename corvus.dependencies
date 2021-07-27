@@ -1,10 +1,17 @@
 [
   {
-    "repository": "nexus_kernel_lavender",
+    "repository": "predator_xiaomi_lavender",
     "target_path": "kernel/xiaomi/lavender"
   },
   {
     "repository": "lavender_xiaomi_vendor",
     "target_path": "vendor/xiaomi/lavender"
+  },
+  {
+    "repository": "vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender"
+  },
+  {
+    "repository": "corvus_xiaomiParts",
+    "target_path": "vendor/XiaomiParts"
   }
-]
