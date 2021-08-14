@@ -172,6 +172,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-player=true \
     media.stagefright.enable-qcp=true \
     media.stagefright.enable-scan=true \
+    ro.media.recorder-max-base-layer-fps=60 \
     persist.mm.enable.prefetch=true \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     vidc.enc.target_support_bframe=1 \
