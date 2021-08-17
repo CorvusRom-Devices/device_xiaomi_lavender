@@ -119,6 +119,7 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libhdmiedid \
     libhfp \
+    libldacBT_bco \
     libldacBT_dec \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0 \
