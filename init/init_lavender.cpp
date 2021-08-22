@@ -92,21 +92,6 @@ void property_override(char const prop[], char const value[], bool add = true)
     }
 }
 
-void vendor_load_properties()
-{
-    // dalvik
-    check_device();
-    property_override("dalvik.vm.heapstartsize", heapstartsize);
-    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_override("dalvik.vm.heapsize", heapsize);
-    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_override("dalvik.vm.heapminfree", heapminfree);
-    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
-
-    // Misc
-    property_override("ro.apex.updatable", "false");
-}
-
 /* From Magisk@native/jni/magiskhide/hide_utils.c */
 static const char *cts_prop_key[] =
         { "ro.boot.vbmeta.device_state", "ro.boot.verifiedbootstate", "ro.boot.flash.locked",
@@ -138,5 +123,37 @@ static void workaround_cts_properties() {
 	}
 }
 
-/* Workaround CTS */
+static const char *build_keys_props[] =
+{
+    "ro.build.tags",
+    "ro.odm.build.tags",
+    "ro.product.build.tags",
+    "ro.system.build.tags",
+    "ro.system_ext.build.tags",
+    "ro.vendor.build.tags",
+    nullptr
+};
+
+void vendor_load_properties()
+{
+    check_device();
+
+    property_override("dalvik.vm.heapstartsize", heapstartsize);
+    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_override("dalvik.vm.heapsize", heapsize);
+    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+
+    // Misc
+    property_override("ro.apex.updatable", "false");
+    
+    /* Workaround CTS */
     workaround_cts_properties();
+
+    /* Spoof Build keys */
+	  for (int i = 0; build_keys_props[i]; ++i) {
+		  property_override(build_keys_props[i], "release-keys");
+	  }
+
+}
