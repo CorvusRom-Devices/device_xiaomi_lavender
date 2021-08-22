@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Display
 PRODUCT_PACKAGES += \
     gralloc.sdm660 \
