@@ -1,17 +1,43 @@
 [
   {
-    "repository": "predator_xiaomi_lavender",
-    "target_path": "kernel/xiaomi/lavender"
+    "repository"  : "device_xiaomi_lavender",
+    "target_path" : "device/xiaomi/lavender",
+    "branch"      : "11"
   },
   {
-    "repository": "lavender_xiaomi_vendor",
-    "target_path": "vendor/xiaomi/lavender"
+    "repository"  : "Lucifer-morning-star-96/corvus_xiaomiParts",
+    "target_path" : "vendor/XiaomiParts",
+    "branch"      : "4.4-kernel",
+    "remote"      : "github"
   },
   {
-    "repository": "vendor_xiaomi_lavender",
-    "target_path": "vendor/xiaomi/lavender"
+    "repository"  : "Lucifer-morning-star-96/nexus_kernel_xiaomi_lavender",
+    "target_path" : "kernel/xiaomi/lavender",
+    "branch"      : "eas",
+    "remote"      : "github",
+    "clone-depth" : "1"
   },
   {
-    "repository": "corvus_xiaomiParts",
-    "target_path": "vendor/XiaomiParts"
+    "repository"  : "vendor_xiaomi_lavender",
+    "target_path" : "vendor/xiaomi/lavender",
+    "branch"      : "main"
+  },
+  {
+    "repository"  : "Lucifer-morning-star-96/android_hardware_qcom_display",
+    "target_path" : "hardware/qcom-caf/msm8998/display",
+    "branch"      : "4.4",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "Lucifer-morning-star-96/android_hardware_qcom_media",
+    "target_path" : "hardware/qcom-caf/msm8998/media",
+    "branch"      : "4.4",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "Lucifer-morning-star-96/hardware_qcom-caf_audio_msm8998",
+    "target_path" : "hardware/qcom-caf/msm8998/audio",
+    "branch"      : "11",
+    "remote"      : "github"
   }
+]
