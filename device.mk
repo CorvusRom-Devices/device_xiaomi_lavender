@@ -33,9 +33,19 @@ PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender \
                             hardware/google/interfaces \
                             hardware/google/pixel
 
+<<<<<<< HEAD
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+=======
+# QCOM namepsaces
+QCOM_SOONG_NAMESPACE := \
+    $(LOCAL_PATH)/qcom-caf
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
+>>>>>>> 29a53c9f... lavender: Prepare to move to in-tree HALs
 
 # Permissions
 PRODUCT_COPY_FILES += \
