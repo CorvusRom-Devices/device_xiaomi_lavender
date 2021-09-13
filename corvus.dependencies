@@ -20,7 +20,7 @@
   {
     "repository"  : "vendor_xiaomi_lavender",
     "target_path" : "vendor/xiaomi/lavender",
-    "branch"      : "main"
+    "branch"      : "11"
   },
   {
     "repository"  : "Lucifer-morning-star-96/android_hardware_qcom_display",
