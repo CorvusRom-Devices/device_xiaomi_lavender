@@ -377,8 +377,7 @@ PRODUCT_PACKAGES += \
 
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    NexusLauncherRelease
+    SystemUI
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -410,14 +409,8 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
 # VNDK
-# Update this list with what each blob is actually for
-# libicuuc: vendor.qti.hardware.qteeconnector@1.0-impl
-# libstdc++: camera.sdm660
 PRODUCT_PACKAGES += \
-    com.android.vndk.current.on_vendor \
-    libicuuc.vendor \
-    libstdc++.vendor \
-    libgui_vendor
+    libstdc++.vendor
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm-armv8-a/shared/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils-v29.so \
