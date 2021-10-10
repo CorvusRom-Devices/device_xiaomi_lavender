@@ -158,6 +158,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
+    libtinyxml.vendor \
     vendor.display.config@1.9
 
 PRODUCT_PACKAGES += \
