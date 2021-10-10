@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     libdisplayconfig \
     libqdMetaData \
-    libqdMetaData.system \
+    libqdMetaData.vendor \
     libtinyxml \
     libtinyxml.vendor \
     vendor.display.config@1.9
