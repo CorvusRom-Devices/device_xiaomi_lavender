@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData.vendor \
     libtinyxml \
     libtinyxml.vendor \
-    vendor.display.config@1.9
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
