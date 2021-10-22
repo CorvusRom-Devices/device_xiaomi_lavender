@@ -123,7 +123,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.latch_unsignaled=0 \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \
     vendor.gralloc.enable_fb_ubwc=1 \
@@ -198,9 +197,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.max_virtual_display_dimension=4096
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.disable_backpressure=1
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
