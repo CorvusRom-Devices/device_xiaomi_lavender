@@ -130,7 +130,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.renderer=skiagl \
+    debug.sf.latch_unsignaled=0 \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \
     vendor.gralloc.enable_fb_ubwc=1 \
