@@ -40,6 +40,9 @@ TARGET_OTA_ASSERT_DEVICE := lavender
 TARGET_BOOTLOADER_BOARD_NAME :=sdm660
 TARGET_NO_BOOTLOADER := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 service_locator.enable=1 loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
