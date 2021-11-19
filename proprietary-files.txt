@@ -143,8 +143,8 @@ vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
 vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
 
-# Charger - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/hvdcp_opti|31fe37f97728d257fdb8d34ba7bec6b308879bd5
+# Charger - from LA.UM.9.2.r1-03500-SDMxx0.0 
+vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/CneApp/CneApp.apk|67dd058d8e665a8606c1ff6c3980e844a9bf323e
@@ -1858,5 +1858,5 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f96
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
 
-# Wi-Fi - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/cnss-daemon|d7118e205124e456e6d5ff01efeb8ad931001eb3
+# Wi-Fi - from LA.UM.9.2.r1-03500-SDMxx0.0 
+vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
