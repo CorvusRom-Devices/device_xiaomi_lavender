@@ -1842,14 +1842,13 @@ vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
 vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
 vendor/etc/thermal-engine-normal.conf|f44b43de8ec730aed99e289be99c7fc814da5e94
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/lib/libthermalfeature.so|b2a90496eb99301cc0f065fe97782358858668a3
-vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
-# Thermal - from LA.UM.8.2.r1-06200-sdm660.0
-vendor/bin/thermal-engine|fc23647cf4ccf8f056477ecbb29169c35627b95a
--vendor/lib/libthermalclient.so|34b6ee056ae8a6df578fc243f8acd3567a49d97b
--vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
-vendor/lib64/libthermalioctl.so|e1844c66a556946b45bcb6c2e747460aa5201770
+# Thermal - from LA.UM.9.2.r1-03500-SDMxx0.0
+vendor/bin/thermal-engine|6ee391c0b9f8d4ceea57521f584b75c60d2ffa09
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/lib/libthermalclient.so|b2d69a3a3589eb0387c2f13cc10ff91072c27c9a
+vendor/lib64/libthermalclient.so|26475ef0d6b80fcf40c9490f795d21e46d3d9054
+vendor/lib64/libthermalfeature.so|a1d99d33946d99ca620c6f5a8f4759d600a89086
 
 # Time services - from LA.UM.9.2.r1-03500-SDMxx0.0 
 -vendor/app/TimeService/TimeService.apk|aacffbb597e40db705171966174f7242a5a5b4b4
