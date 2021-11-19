@@ -1317,12 +1317,12 @@ vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
 # DPM - from LA.UM.8.2.r1-06700-sdm660.0
--product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|68b6f0227ae0b065dff635f30bfdc3c23f90c395
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|a57ce498d9412bde1646dd37954360af6a7e99f1
 product/bin/dpmd:system_ext/bin/dpmd|90cdd79b564456cef2a0c011afab3896463df5e4
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
-product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|f57aa37de402a2c239fdadb65ac044d364ec1114
-product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
+product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|f061bb76ae844f6df04c1d78caf00cf29a41b112
+product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|3afb4db6d8c34bc9932d6a7bb99c527abb57be72
+product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|697c88d7ebef6232ef214b17b4023bbb3ff4e625
 product/framework/com.qti.dpmframework.jar:system_ext/framework/com.qti.dpmframework.jar|d1f745f1394105d94362bc8dce8920cdd3e07aaa
 product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
@@ -1364,7 +1364,7 @@ vendor/lib64/libhdcp1prov.so|de3c41b147b4617dcdf9a216199aa9364fa63731
 vendor/lib64/libhdcp2p2prov.so|7cbe9df99fc2dad1c4b170c5162442e533e19cba
 vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
 vendor/lib/liboemcrypto.so|938a2325da1c4d4210f78276f43e689b66ec5ae4
-vendor/lib64/liboemcrypto.so|cf493ea8b86ef13a55ca4fb675c176405afd42fb
+vendor/lib64/liboemcrypto.so|db41cb588065ad0d92ac2a59db409420c021413b
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib64/libwvhidl.so|12f5e6d483a8d20163be3675565641f1eb4f5f50
@@ -1633,10 +1633,10 @@ vendor/lib64/libqsocket.so|40816476d857f2ad07490415f6ff7433517ccef8
 # Radio - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9758fbbaa7b2a18c01a32200b3a86a4dbc798d3c
 -product/app/datastatusnotification/datastatusnotification.apk:system_ext/app/datastatusnotification/datastatusnotification.apk|4685df4bb2446950bcb37da83f4acefc69bfcdc3
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
-product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
+-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|7373d6ffd2d268cb11034f7310d039527d03d522
+product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml:system_ext/etc/permissions/telephony_product_privapp-permissions-qti.xml|68901007ba1a48ceb1b728fc3b5483dd51b5e3a0
-product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
+product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 product/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
 product/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|fff4848e33826eaf20ffc5e70b276fac3075f970
@@ -1734,11 +1734,11 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd71
 # Radio (IMS) - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk|5e24e30b6fb5906e13fd8db1f57e30b8b59028ff
 -product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk|91f9ca2e1121ad9ff2805031ade6c685392e636c
--product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk|7aff4613e75dfe90363409cf649e2a3e09469921
+-product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk|1a179a4d4b9f20cdb4c4317e052ed08a3b28010c
 etc/permissions/com.qualcomm.qti.imscmservice.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|d52cdba3a8f1c00098568965c0cbaa03502f961e
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bc80cc63f55de0d80e9756dd4a9d0afc36072c61
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|e395f4c5dbfadd272c48b985a4e0b7f7c38919ac
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|6d3b5d0991f917b5e2b3c65f644c3a48067c267d
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|5a9086eb54f6f1ab1d200dfffe1741bd9fb692fc
 product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar|ffd8d94c2b41fef4e422f7247ee164d7ed70ff5d
 product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar|836ef6801f0a09cde1bbef7af8b282365198fac4
 product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar:system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar|fde4900c414b5666c09ca2e792a0b7ac1be3a808
