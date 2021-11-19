@@ -1852,11 +1852,11 @@ vendor/bin/thermal-engine|fc23647cf4ccf8f056477ecbb29169c35627b95a
 -vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
 vendor/lib64/libthermalioctl.so|e1844c66a556946b45bcb6c2e747460aa5201770
 
-# Time services - from lavender
--vendor/app/TimeService/TimeService.apk|6e65b04f559b6e5c392b9cd533ba437167db9036
-vendor/bin/time_daemon|4379f604fcb41e9b096203b1d888cac478a3aafe
+# Time services - from LA.UM.9.2.r1-03500-SDMxx0.0 
+-vendor/app/TimeService/TimeService.apk|aacffbb597e40db705171966174f7242a5a5b4b4
+vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
+vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # TUI - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|d4d025e0a12af87f65104fe07801517938733603
