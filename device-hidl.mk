@@ -28,14 +28,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
-# DRM
-PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.0.vendor
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0 \
