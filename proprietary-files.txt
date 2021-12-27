@@ -1418,15 +1418,12 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|2edd1bfb811307ea81c46b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|eaf70216b4e53f409c22764b272b79cd60a4b714
 
 # Keymaster  - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|22838e26f4a645a351bec32405ccf54b2271e13d
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|e77067e7dcb04c9a319789776bee3ac4d684e1b5
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|595ba927e28accdb5c5e6927a7bb5ef17ad455a1
 vendor/lib/libkeymasterdeviceutils.so|bc2aac023d99ec9e423d2f769019d187c99a8afb
 vendor/lib/libkeymasterprovision.so|ae6bbb9fec083307336b6191194d5c48b5dfd3a5
 vendor/lib/libkeymasterutils.so|599755dde51af5289f1f2776651bb2f93eb8507e
 vendor/lib/libqtikeymaster4.so|1bf1be0b0679f12856be7d9331aaa03202c4dfdc
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|69fd7a9f800da8cb74ae3a726188c028bc360d05
 vendor/lib64/libkeymasterdeviceutils.so|763a02841eb133e698180e0cacf309450a4ce0e0
 vendor/lib64/libkeymasterprovision.so|f7e215595c2f7e62a6575b23a109b6b18556fc3b
 vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
