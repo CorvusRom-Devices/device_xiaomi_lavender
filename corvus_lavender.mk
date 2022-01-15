@@ -21,6 +21,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 CORVUS_MAINTAINER=MukulSharma
 RAVEN_LAIR := Official
 
+# Additional Pixel stuffs
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
