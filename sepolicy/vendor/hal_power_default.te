@@ -11,3 +11,6 @@ allow hal_power_default device_latency:chr_file rw_file_perms;
 allow hal_power_default latency_device:chr_file rw_file_perms;
 
 set_prop(hal_power_default, vendor_power_prop)
+# Allow writing to files in /sys/touchpanel
+allow hal_power_default sysfs_touchpanel:file rw_file_perms;
+allow hal_power_default sysfs_touchpanel:dir search;

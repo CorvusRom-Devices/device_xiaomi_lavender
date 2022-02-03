@@ -4,3 +4,5 @@ type sysfs_fingerprint, fs_type, sysfs_type;
 type proc_dt2w, fs_type, proc_type;
 type thermal_data_file, file_type, data_file_type;
 
+#DT2W
+type sysfs_touchpanel, sysfs_type, fs_type;
