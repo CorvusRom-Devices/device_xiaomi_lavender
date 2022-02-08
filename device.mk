@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
 # Additional Pixel Stuffs 
-include vendor/pixel-additional/config.mk
+$(call inherit-product-if-exists, vendor/pixel-additional/config.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
