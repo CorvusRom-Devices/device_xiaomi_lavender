@@ -27,3 +27,6 @@ persist.sys.fuse.passthrough.enable=true
 # IORap
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
+
+# Watchdog
+ro.hw_timeout_multiplier=3
