@@ -637,3 +637,7 @@ service vendor.goodix_script /vendor/bin/init.goodix.sh
     class late_start
     user root
     oneshot
+
+on property:persist.sys.device_provisioned=1
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,7
+    setprop dalvik.vm.dex2oat-threads 6
