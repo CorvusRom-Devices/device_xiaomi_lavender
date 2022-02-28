@@ -9,17 +9,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common PixelExperience stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Corvus stuff
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
+# Corvus Maintainer
+CORVUS_MAINTAINER=MukulSharma
+RAVEN_LAIR := Official
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_lavender
+PRODUCT_NAME := corvus_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
