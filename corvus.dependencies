@@ -1,0 +1,19 @@
+[
+  {
+    "repository"  : "device_xiaomi_lavender",
+    "target_path" : "device/xiaomi/lavender",
+    "branch"      : "S"
+  },
+  {
+    "repository"  : "MukulSharma06175/kernel_xiaomi_lavender",
+    "target_path" : "kernel/xiaomi/lavender",
+    "branch"      : "twelve",
+    "remote"      : "github",
+    "clone-depth" : "1"
+  },
+  {
+    "repository"  : "vendor_xiaomi_lavender",
+    "target_path" : "vendor/xiaomi/lavender",
+    "branch"      : "S"
+  }
+]
