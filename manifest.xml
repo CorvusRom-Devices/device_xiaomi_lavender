@@ -22,7 +22,7 @@
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport>hwbinder</transport>
-        <fqname>@2.4::ICameraProvider/legacy/0</fqname>
+        <fqname>@2.6::ICameraProvider/legacy/0</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.gatekeeper</name>
