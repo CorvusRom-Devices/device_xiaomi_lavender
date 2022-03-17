@@ -156,9 +156,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
-# RenderScript
-OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
-
 # Seccomp
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/configs/seccomp
 
