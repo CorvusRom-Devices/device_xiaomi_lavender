@@ -155,11 +155,11 @@ PRODUCT_PACKAGES += \
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-   DeviceSettings
+   XiaomiParts
 
 # DeviceDoze
 PRODUCT_PACKAGES += \
-    DeviceDoze
+    XiaomiDoze
 
 # Vibrator
 PRODUCT_PACKAGES += \

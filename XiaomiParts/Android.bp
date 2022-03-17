@@ -5,7 +5,7 @@
 //
 
 android_app {
-    name: "DeviceSettings",
+    name: "XiaomiParts",
     defaults: [
         "SettingsLibDefaults",
     ],
