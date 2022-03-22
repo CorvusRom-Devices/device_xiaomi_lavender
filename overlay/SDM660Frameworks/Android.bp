@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SDM660Frameworks",
+    product_specific: true,
+    sdk_version: "current",
+}

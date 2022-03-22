@@ -22,6 +22,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml
 
+PRODUCT_PACKAGES += \
+    SDM660Frameworks
+
 # RRO configuration
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
