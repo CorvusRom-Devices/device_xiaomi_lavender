@@ -253,5 +253,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.image-dex2oat-threads=8
 
+# Dalvik
+PRODUCT_SYSTEM_PROPERTIES += \
+     dalvik.vm.dex2oat64.enabled=true
+
+# Dexopt
+PRODUCT_SYSTEM_PROPERTIES += \
+     pm.dexopt.first-boot=quicken
+     pm.dexopt.bg-dexopt=everything
+
 # System
 persist.sys.binary_xml=false
