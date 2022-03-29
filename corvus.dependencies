@@ -2,12 +2,12 @@
   {
     "repository"  : "device_xiaomi_lavender",
     "target_path" : "device/xiaomi/lavender",
-    "branch"      : "S"
+    "branch"      : "12"
   },
   {
-    "repository"  : "MukulSharma06175/kernel_xiaomi_lavender",
+    "repository"  : "MukulSharma06175/android_kernel_xiaomi_lavender-LTO",
     "target_path" : "kernel/xiaomi/lavender",
-    "branch"      : "twelve",
+    "branch"      : "eas-caf",
     "remote"      : "github",
     "clone-depth" : "1"
   },
