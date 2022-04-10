@@ -16,6 +16,3 @@ allow hal_power_default proc:{ file lnk_file } rw_file_perms;
 allow hal_power_default system_server:process setsched;
 
 set_prop(hal_power_default, vendor_power_prop)
-# Allow writing to files in /sys/touchpanel
-allow hal_power_default sysfs_touchpanel:file rw_file_perms;
-allow hal_power_default sysfs_touchpanel:dir search;

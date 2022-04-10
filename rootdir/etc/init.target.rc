@@ -126,9 +126,7 @@ on boot
 
     # Double Tap to Wake
     chown system system /proc/tp_gesture
-    chown system system /sys/touchpanel/double_tap
-    chmod 0660 /proc/tp_gesture
-    chmod 0660 /sys/touchpanel/double_tap
+    chmod 0664 /proc/tp_gesture
 
 #Load WLAN driver
    insmod /vendor/lib/modules/qca_cld3_wlan.ko
