@@ -4,9 +4,6 @@ ro.vendor.qti.va_aosp.support=1
 # CNE
 persist.vendor.cne.feature=1
 
-# Display
-debug.cpurend.vsync=false
-
 #Dex
 dalvik.vm.dex2oat64.enabled=true
 
