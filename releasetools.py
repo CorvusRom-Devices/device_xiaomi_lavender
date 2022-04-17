@@ -30,7 +30,7 @@ def AddImage(info, input_zip, basename, dest):
   name = basename
   data = input_zip.read("IMAGES/" + basename)
   common.ZipWriteStr(info.output_zip, name, data)
-  info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
+  info.script.Print("Patching {} image Flashing all necessary Images...".format(dest.split('/')[-1]))
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
 
 
