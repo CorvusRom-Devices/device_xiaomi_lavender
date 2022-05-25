@@ -290,6 +290,8 @@ on property:sys.boot_completed=1
     # the process that's writing.
     write /proc/sys/vm/dirty_ratio 99
     write /proc/sys/vm/dirty_background_ratio 50
+    chown system system /sys/class/leds/white/brightness
+    write /sys/class/leds/white/brightness 255
 
     # Tell that 10 minutes write delay is ok to even start writing
     # stuff on the disk (ten minutes = 60000; 1 hour 360000).
