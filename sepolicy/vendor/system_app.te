@@ -9,3 +9,7 @@ allow system_app sysfs_earpiecegain:file rw_file_perms;
 
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop); 
+
+# Battery health
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file { read open getattr };
