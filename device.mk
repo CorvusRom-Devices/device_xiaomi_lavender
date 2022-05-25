@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Additional-CarrierSettings
+$(call inherit-product-if-exists, vendor/pixel-additional/config.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
