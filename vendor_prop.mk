@@ -264,3 +264,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # System
 persist.sys.binary_xml=false
+
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
