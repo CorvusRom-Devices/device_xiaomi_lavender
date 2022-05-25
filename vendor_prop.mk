@@ -139,7 +139,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_buffer_age=false \
     debug.sf.recomputecrop=0 \
     vendor.display.disable_rotator_downscale=1 \
-    vendor.display.disable_scaler=0
+    vendor.display.disable_scaler=0 \
+    debug.force_no_blanking=true
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
