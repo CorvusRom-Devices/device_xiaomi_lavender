@@ -20,6 +20,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <uses-sdk
         android:minSdkVersion="27"
@@ -35,7 +36,7 @@
             android:directBootAware="true"
             android:enabled="true"
             android:exported="true">
-            <intent-filter>
+           <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
 
@@ -90,6 +91,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".thermal.ThermalActivity"
+            android:exported="true" 
+            android:icon="@drawable/ic_thermal"
+            android:label="@string/thermal_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".thermal.ThermalService"
+            android:permission="ThermalService">
+        </service>
 
         <service
             android:name=".FPSInfoService"

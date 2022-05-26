@@ -6,6 +6,7 @@ allow system_app sysfs_fpsinfo:file rw_file_perms;
 allow system_app sysfs_headphonegain:file rw_file_perms;
 allow system_app sysfs_micgain:file rw_file_perms;
 allow system_app sysfs_earpiecegain:file rw_file_perms;
+allow system_app sysfs_thermal:file rw_file_perms;
 
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop); 
